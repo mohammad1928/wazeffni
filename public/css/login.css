@@ -1,0 +1,39 @@
+body{
+    background-image: url("../imgs/job-back.jpg");
+    background-size: cover;
+}
+.login-con{
+    position: relative!important;
+}
+.login{
+    background-color: rgba(48, 48, 48, 0.61)!important;
+}
+.logo{
+    position: relative;
+}
+.signup-text{
+    position: absolute;
+    top: 135px;
+    margin-right: 12px;
+}
+.error-message{
+    color:#ff7d7d;
+}
+.login-field{
+    padding: 24px;
+    border-radius: 20px;
+}
+.or::before,.or::after{
+    content: "";
+    display: inline-flex;
+    width: 25%;
+    background-color:rgb(160, 160, 160);
+    height: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+footer{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,18 @@
+.land-image{
+    transition: all .3s ease;
+    animation-name:y-transform;
+    animation-direction: alternate;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+
+@keyframes y-transform {
+    from{
+        transform: translateY(-70px);
+    }
+    to{
+        transform: translateY(100px);
+    }
+}

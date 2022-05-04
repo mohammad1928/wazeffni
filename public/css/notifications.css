@@ -1,0 +1,22 @@
+.clear-all{
+    position: relative;
+}
+.box{
+    position: relative;
+}
+
+.cl-all{
+    position: absolute;
+    right: 20px;
+    top:15px;
+    cursor: pointer;
+}
+.delete{
+    position: absolute;
+    right: 15px;
+    top: 22%;
+    cursor: pointer;
+}
+.empty{
+    height: 300px;
+}
